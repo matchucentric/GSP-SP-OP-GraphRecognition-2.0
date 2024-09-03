@@ -19,7 +19,7 @@ run:\
 ./dfs 32V.txt //any graph can be substituted for 32V.txt, but it must be in the same folder as the compiled program
 
 Compile C++ style dfs:\
-g++ df2.cpp -o dfs2 -O3 -std=c++20
+g++ dfs2-using-2d-vector.cpp -o dfs2 -O3 -std=c++20
 
 run:\
 ./dfs2 32V.txt  //Program does not yet produce an output file.
